@@ -1,0 +1,99 @@
+html {
+    font-family: "HangeulNuri-Bold", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 598px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hearder_title {
+    font-size: 50px;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hearder_title_sub {
+    font-size: 20px; 
+    margin-bottom: 15px; 
+}
+
+.box {
+    width: 450px;
+    height: 200px;
+}
+
+.btn-area {
+    margin: 15px auto;
+}
+
+.before {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.after {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn {
+    display: block;
+    cursor: pointer;
+}
+
+.btn--primary {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    border-radius: 5px;
+    color:white;
+    font-size: 17px;
+    border: 0;
+}
+
+.btn--assist {
+    margin-top:15px;
+    padding: 10px 15px;  
+    background-color:#20c997;
+    border-radius: 5px;
+    color:white;
+    font-size: 17px;
+    border: 0;
+}
+
+.btn2 button:first-child {
+    margin-right: 15px;
+}
+
+.btn--assist2 {
+    width: 223px;
+    height: 50px;
+    background-color:#20c997;
+    border-radius: 5px;
+    color:white;
+    font-size: 17px;
+    border: 0;
+}
+
+.btn2 {
+    display: flex;
+}
+
+.change {
+    color:#007bff;
+}
+
+a {
+    color:black;
+    text-decoration-line: none;
+}
+
+textarea {
+    padding: 10px;
+    font-size: 15px;
+}

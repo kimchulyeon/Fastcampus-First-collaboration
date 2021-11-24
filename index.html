@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIRBNB 난독화 연습</title>
+    <!-- reset css cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./main.css">
+    <!-- JS -->
+    <script defer src="./main.js"></script>
+</head>
+<body>
+  <!-- 한글 난독화 -->
+  <div class="container">
+    <header>
+        <h1 class="hearder_title">g
+          <a href="/index.html">한글 난독화</a>
+        </h1>
+      </header>
+      <!-- 메인 -->
+      <section>
+        <!-- 변환되기 전 -->
+        <article class="before">
+          <textarea id="korean" class="box" placeholder="변환할 문장들을 여기에 입력하고 '변환하기' 버튼을 누르세요."></textarea> 
+          <!-- 버튼 -->
+        <div class="btn-area">
+          <div class="btn1">
+            <button class="btn btn--primary" onclick="obfuscation()">변환하기</button>
+          </div>
+          <div class="btn2">  
+            <button onclick="reset()" class="btn btn--assist">입력창 지우기</button>
+            <button class="btn btn--assist">변환 옵션</button>
+          </div>
+        </div>
+    </article>
+        <!-- 변환된 후 -->
+        <article class="after">
+            <h4 class="hearder_title_sub">변환된 문장:</h4>
+            <textarea id="result" class="box" placeholder="변환된 문장들이 여기에 나타납니다."></textarea>
+            <div class="btn-area">
+                <button class="btn btn--assist2">클립보드에 복사</button>
+            </div>
+            
+          <p>
+            한국인만 읽을 수 있는
+            <a href="javascript:void(0)"><span class="change">한자문장으로 바꾸려면 여기</span></a>
+          </p>
+        </article>
+      </section>
+  </div>
+</body>
+</html>
